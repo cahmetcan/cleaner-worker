@@ -1,0 +1,8 @@
+name = "cleaner"
+
+account_id = ""
+main = "./src/index"
+
+r2_buckets  = [
+  { binding = "<name>", bucket_name = "<name>", preview_bucket_name="<name>"}
+]
